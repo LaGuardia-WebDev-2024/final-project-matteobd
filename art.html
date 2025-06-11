@@ -6,17 +6,38 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      body {
+        background-color: #fdf7f2; 
+      }
+
       .parent-flex {
         display: flex;
-        background-color: purple;
-        justify-content: space-around;
-        padding: 10px;
-        margin-bottom: 20px;
+        background-color: #f8f3ed; 
+        justify-content: center;
+        gap: 40px;
+        padding: 30px;
+        margin: 40px auto;
+        border-radius: 12px;
+        max-width: 900px;
+        box-shadow: 0 8px 18px rgba(93, 64, 55, 0.15); 
       }
 
       .parent-flex img {
-        max-width: 30%;
+        max-width: 40%;
         border-radius: 10px;
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .parent-flex img:hover {
+        transform: scale(1.03);
+      }
+
+      h1 {
+        color: #4e342e; 
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Poetsen One',
       }
     </style>
   </head>
@@ -26,7 +47,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
       <li><a class="active" href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="photo archive.html">Archive</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -42,25 +63,18 @@
         /></a>
       </li>
     </ul>
+
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
+    <h1>My Art 𓇢𓆸</h1>
 
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      <img src="https://cdn.glitch.global/635cf8b7-665a-4181-8565-d0421cac1ebc/IMG_9950.jpg?v=1749662052874" />
+      <img src="https://cdn.glitch.global/635cf8b7-665a-4181-8565-d0421cac1ebc/IMG_9957.JPG?v=1749662056517" />
     </div>
 
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      <img src="https://cdn.glitch.global/635cf8b7-665a-4181-8565-d0421cac1ebc/IMG_9949.jpg?v=1749662060683" />
+      <img src="https://cdn.glitch.global/635cf8b7-665a-4181-8565-d0421cac1ebc/2D5D7D43-836C-4384-8C01-69A6B6B42BE5.jpg?v=1749662069900" />
     </div>
   </body>
 </html>
